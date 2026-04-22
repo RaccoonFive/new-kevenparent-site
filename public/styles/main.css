@@ -115,6 +115,7 @@ h1 {
   text-transform: uppercase;
   color: var(--text-strong);
   text-shadow: 0 10px 30px rgba(125, 154, 179, 0.25);
+  user-select: none;
 }
 
 p {
@@ -125,6 +126,7 @@ p {
   letter-spacing: 0.16em;
   color: var(--text-soft);
   text-transform: uppercase;
+  user-select: none;
 }
 
 @media (max-width: 640px) {
