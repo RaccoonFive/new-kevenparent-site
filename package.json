@@ -2,12 +2,17 @@
   "name": "new-kevenparent-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Simple Node.js teaser site for VPS testing",
+  "description": "Express landing page scaffold with rendered views",
   "main": "server.js",
   "scripts": {
+    "dev": "node --watch server.js",
     "start": "node server.js"
   },
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
   }
 }
