@@ -1,0 +1,13 @@
+{
+  "name": "new-kevenparent-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple Node.js teaser site for VPS testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
